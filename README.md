@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![StudyMaster Logo](white_circle_360x360.png)
+
 
 **A Modern Study Management Platform**
 
