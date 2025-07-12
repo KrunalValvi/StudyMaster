@@ -12,7 +12,6 @@
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-[![Build Status](https://img.shields.io/github/workflow/status/KrunalValvi/StudyMaster/CI)](https://github.com/KrunalValvi/StudyMaster/actions)
 [![License](https://img.shields.io/github/license/KrunalValvi/StudyMaster)](./LICENSE)
 [![Stars](https://img.shields.io/github/stars/KrunalValvi/StudyMaster)](https://github.com/KrunalValvi/StudyMaster/stargazers)
 [![Forks](https://img.shields.io/github/forks/KrunalValvi/StudyMaster)](https://github.com/KrunalValvi/StudyMaster/network)
