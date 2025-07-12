@@ -12,8 +12,8 @@
     "test:ui": "vitest --ui",
     "test:coverage": "vitest --coverage",
     "test:e2e": "playwright test",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "lint:fix": "eslint . --ext ts,tsx --fix",
+    "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint . --fix",
     "format": "prettier --write \"src/**/*.{ts,tsx,json,css,md}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx,json,css,md}\"",
     "type-check": "tsc --noEmit",
@@ -21,7 +21,11 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.390.0",
+    "framer-motion": "^10.16.0",
+    "react-dropzone": "^14.2.3",
+    "recharts": "^2.8.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
@@ -40,7 +44,16 @@
     "playwright": "^1.40.0",
     "prettier": "^3.1.0",
     "husky": "^8.0.3",
-    "lint-staged": "^15.2.0"
+    "lint-staged": "^15.2.0",
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.16",
+    "typescript-eslint": "^8.36.0",
+    "globals": "^13.24.0",
+    "@eslint/js": "^8.55.0",
+    "jsdom": "^23.0.0",
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.1"
   },
   "keywords": [
     "study-app",
